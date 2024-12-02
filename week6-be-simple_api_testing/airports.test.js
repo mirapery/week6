@@ -1,6 +1,7 @@
 import { request, expect } from "./config.js";
 
 describe("Airport API", function () {
+  
   describe("GET /airports", function () {
     describe("when retrieving airports", function () {
       it("should return a list of airports limited to 30 per page", async function () {
